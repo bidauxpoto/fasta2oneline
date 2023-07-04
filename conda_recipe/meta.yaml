@@ -1,0 +1,19 @@
+{% set name = "fasta2oneline" %}
+{% set version = "1.0" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source: 
+  path: ../src
+
+requirements:
+  host:
+    - perl
+  run:
+    - perl
+
+about:
+  home: https://github.com/bidauxpoto/fasta2oneline
+  summary: TODO
