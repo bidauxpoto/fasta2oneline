@@ -4,7 +4,7 @@
 ```conda install -c molinerislab fasta2oneline```
 
 ### Description:
-Return one line for each fasta block in input. The first column of the line is the header of the block, the remaining part of the line is the concatenation (without \n) of the lines of the block.
+Return one line for each fasta block in input. The first column of the line is the header of the block, the remaining part of the line is the concatenation (without ```\n```) of the lines of the block.
 
 
 ### Usage and options:
